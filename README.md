@@ -20,6 +20,9 @@ U-Netは画像セグメンテーションにおいて広く用いられるモデ
 - Deep Learning（U-Net, Residual Network）
 - Image Segmentation
 
+## 工夫点
+Encoder部分をResidual Blockに置き換えることで、深い層でも特徴伝播が可能となり、モデルの学習安定性と表現力の向上を実現した。
+
 ## 詳細
-詳細な実装および評価については以下のPDFを参照してください：
+詳細な実装および評価については以下のPDFを参照してください
 - Semantic_Segmentation.pdf
