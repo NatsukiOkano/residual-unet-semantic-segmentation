@@ -1,0 +1,2 @@
+# residual-unet-semantic-segmentation
+本プロジェクトでは、U-NetのEncoderにResidual Blockを導入し、セマンティックセグメンテーションの精度向上を試みた。既存のU-Net構造を維持しつつ、特徴抽出能力と学習の安定性を改善したモデルを構築した。検証データではmIoU 0.8956を達成し、Residual接続による表現力向上の有効性を確認した。
